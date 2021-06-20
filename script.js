@@ -66,8 +66,7 @@ const resetGame = () => {
     turnsPlayed = []
     currentPlayer = "X"
     resultMessage.innerHTML = ""
-    // player1Win = false
-    // player2Win = false
+    i = 0
 }
 // Function to clear field and reset scores as well
 const resetScores = () => {
@@ -100,7 +99,6 @@ blocks[0].addEventListener("click",  () =>{
     i++
     winnerCheck()
     playerSwap()
-    console.log(turnsPlayed)
 })
 blocks[1].addEventListener("click",  () =>{
     blocks[1].innerHTML = currentPlayer
@@ -108,7 +106,6 @@ blocks[1].addEventListener("click",  () =>{
     i++
     winnerCheck()
     playerSwap()
-    console.log(turnsPlayed)
 })
 blocks[2].addEventListener("click",  () =>{
     blocks[2].innerHTML = currentPlayer
@@ -117,7 +114,6 @@ blocks[2].addEventListener("click",  () =>{
     // checkResults()
     winnerCheck()
     playerSwap()
-    console.log(turnsPlayed)
 })
 blocks[3].addEventListener("click",  () =>{
     blocks[3].innerHTML = currentPlayer
@@ -125,7 +121,6 @@ blocks[3].addEventListener("click",  () =>{
     i++
     winnerCheck()
     playerSwap()
-    console.log(turnsPlayed)
 })
 blocks[4].addEventListener("click",  () =>{
     blocks[4].innerHTML = currentPlayer
@@ -134,7 +129,6 @@ blocks[4].addEventListener("click",  () =>{
     // checkResults()
     winnerCheck()
     playerSwap()
-    console.log(turnsPlayed)
 })
 blocks[5].addEventListener("click",  () =>{
     blocks[5].innerHTML = currentPlayer
@@ -142,7 +136,6 @@ blocks[5].addEventListener("click",  () =>{
     i++
     winnerCheck()
     playerSwap()
-    console.log(turnsPlayed)
 })
 blocks[6].addEventListener("click",  () =>{
     blocks[6].innerHTML = currentPlayer
@@ -150,7 +143,6 @@ blocks[6].addEventListener("click",  () =>{
     i++
     winnerCheck()
     playerSwap()
-    console.log(turnsPlayed)
 })
 blocks[7].addEventListener("click",  () =>{
     blocks[7].innerHTML = currentPlayer
@@ -159,7 +151,6 @@ blocks[7].addEventListener("click",  () =>{
     // checkResults()
     winnerCheck()
     playerSwap()
-    console.log(turnsPlayed)
 })
 blocks[8].addEventListener("click",  () =>{
     blocks[8].innerHTML = currentPlayer
@@ -168,5 +159,4 @@ blocks[8].addEventListener("click",  () =>{
     // checkResults()
     winnerCheck()
     playerSwap()
-    console.log(turnsPlayed)
 })

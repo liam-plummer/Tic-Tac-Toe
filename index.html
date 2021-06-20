@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <script src="//cdn.jsdelivr.net/npm/less@3.13" ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1 id="title">TIC TAC TOE</h1>
+    <h3 class="order"></h3>
+    <div class="score">
+        <div class="players" >
+            <h3>Player 1 (X):</h3>
+            <h2 id="scoreP1"></h2>
+        </div>
+        <div class="players">
+            <h3>Player 2 (O):</h3>
+            <h2 id="scoreP2"></h2>
+        </div>
+    </div>
+    <div class="btns">
+        <button id="startAgain">
+            Play Again
+        </button>
+        <button id="scoreRefresh">
+            Refresh Scores
+        </button>
+    </div>
+    <h5 id="resultMessage"></h5>
+    <div class="container">
+        <div class="grid">
+            <div class="block" id="b0"></div>
+            <div class="block" id="b1"></div>
+            <div class="block" id="b2"></div>
+            <div class="block" id="b3"></div>
+            <div class="block" id="b4"></div>
+            <div class="block" id="b5"></div>
+            <div class="block" id="b6"></div>
+            <div class="block" id="b7"></div>
+            <div class="block" id="b8"></div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -67,6 +67,8 @@ const resetGame = () => {
     currentPlayer = "X"
     resultMessage.innerHTML = ""
     i = 0
+    player1Win = false
+    player2Win = false
 }
 // Function to clear field and reset scores as well
 const resetScores = () => {
@@ -94,69 +96,83 @@ scores[1].innerHTML = player2Score
 
 // Brute functions to recognise which block is clicked
 blocks[0].addEventListener("click",  () =>{
-    blocks[0].innerHTML = currentPlayer
-    turnsPlayed.push(i)
-    i++
-    winnerCheck()
-    playerSwap()
+    if (blocks[0].innerHTML == "" && (player1Win == false && player2Win == false)) {
+        blocks[0].innerHTML = currentPlayer
+        turnsPlayed.push(i)
+        i++
+        winnerCheck()
+        playerSwap()
+    }
 })
 blocks[1].addEventListener("click",  () =>{
-    blocks[1].innerHTML = currentPlayer
-    turnsPlayed.push(i)
-    i++
-    winnerCheck()
-    playerSwap()
+    if (blocks[1].innerHTML == "" && (player1Win == false && player2Win == false)) {
+        blocks[1].innerHTML = currentPlayer
+        turnsPlayed.push(i)
+        i++
+        winnerCheck()
+        playerSwap()
+    }
 })
 blocks[2].addEventListener("click",  () =>{
-    blocks[2].innerHTML = currentPlayer
-    turnsPlayed.push(i)
-    i++
-    // checkResults()
-    winnerCheck()
-    playerSwap()
+    if (blocks[2].innerHTML == "" && (player1Win == false && player2Win == false)) {
+        blocks[2].innerHTML = currentPlayer
+        turnsPlayed.push(i)
+        i++
+        winnerCheck()
+        playerSwap()
+    }
 })
 blocks[3].addEventListener("click",  () =>{
-    blocks[3].innerHTML = currentPlayer
-    turnsPlayed.push(i)
-    i++
-    winnerCheck()
-    playerSwap()
+    if (blocks[3].innerHTML == "" && (player1Win == false && player2Win == false)) {
+        blocks[3].innerHTML = currentPlayer
+        turnsPlayed.push(i)
+        i++
+        winnerCheck()
+        playerSwap()
+    }
 })
 blocks[4].addEventListener("click",  () =>{
-    blocks[4].innerHTML = currentPlayer
-    turnsPlayed.push(i)
-    i++
-    // checkResults()
-    winnerCheck()
-    playerSwap()
+    if (blocks[4].innerHTML == "" && (player1Win == false && player2Win == false)) {
+        blocks[4].innerHTML = currentPlayer
+        turnsPlayed.push(i)
+        i++
+        winnerCheck()
+        playerSwap()
+    }
 })
 blocks[5].addEventListener("click",  () =>{
-    blocks[5].innerHTML = currentPlayer
-    turnsPlayed.push(i)
-    i++
-    winnerCheck()
-    playerSwap()
+    if (blocks[5].innerHTML == "" && (player1Win == false && player2Win == false)) {
+        blocks[5].innerHTML = currentPlayer
+        turnsPlayed.push(i)
+        i++
+        winnerCheck()
+        playerSwap()
+    }
 })
 blocks[6].addEventListener("click",  () =>{
-    blocks[6].innerHTML = currentPlayer
-    turnsPlayed.push(i)
-    i++
-    winnerCheck()
-    playerSwap()
+    if (blocks[6].innerHTML == "" && (player1Win == false && player2Win == false)) {
+        blocks[6].innerHTML = currentPlayer
+        turnsPlayed.push(i)
+        i++
+        winnerCheck()
+        playerSwap()
+    }
 })
 blocks[7].addEventListener("click",  () =>{
-    blocks[7].innerHTML = currentPlayer
-    turnsPlayed.push(i)
-    i++
-    // checkResults()
-    winnerCheck()
-    playerSwap()
+    if (blocks[7].innerHTML == "" && (player1Win == false && player2Win == false)) {
+        blocks[7].innerHTML = currentPlayer
+        turnsPlayed.push(i)
+        i++
+        winnerCheck()
+        playerSwap()
+    }
 })
 blocks[8].addEventListener("click",  () =>{
-    blocks[8].innerHTML = currentPlayer
-    turnsPlayed.push(i)
-    i++
-    // checkResults()
-    winnerCheck()
-    playerSwap()
+    if (blocks[8].innerHTML == "" && (player1Win == false && player2Win == false)) {
+        blocks[8].innerHTML = currentPlayer
+        turnsPlayed.push(i)
+        i++
+        winnerCheck()
+        playerSwap()
+    }
 })
